@@ -277,8 +277,8 @@ listbox.bind('<<ListboxSelect>>', on_select)
 listbox_update(hostnames)
 
 # create the widgets in the centre Right Frame to display hostname details
-hostnameLabel = Label(ctr_mid, text="CUSTOMER:", bg='#333333', fg="grey", font = (12))
-hostname_entry = Entry(ctr_right, text="",bg='grey',font = (12))
+customerLabel = Label(ctr_mid, text="CUSTOMER:", bg='#333333', fg="grey", font = (12))
+customer_entry = Entry(ctr_right, text="",bg='grey',font = (12))
 hostnameLabel = Label(ctr_mid, text="HOSTNAME:", bg='#333333', fg="grey",font = (12))
 hostname_entry = Entry(ctr_right, text="",bg='grey',font = (12))
 natIpLabel = Label(ctr_mid, text="NAT IP:", bg='#333333', fg="grey",font = (12))
@@ -310,8 +310,8 @@ versionLabel = Label(ctr_mid, text="VERSION:", bg='#333333', fg="grey",font = (1
 version_entry = Entry(ctr_right, text="",bg='grey',font = (12))
 
 # layout the widgets in the ctr_right Frame
-hostnameLabel.pack(fill = X, expand=True)
-hostname_entry.pack(fill = X, expand=True)
+customerLabel.pack(fill = X, expand=True)
+customer_entry.pack(fill = X, expand=True)
 hostnameLabel.pack(fill = X, expand=True)
 hostname_entry.pack(fill = X, expand=True)
 natIpLabel.pack(fill = X, expand=True)
