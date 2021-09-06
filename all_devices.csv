@@ -1,0 +1,6 @@
+Company,Hostname,Connectivity,Site,Device group,IP,SNMP,Customer IP,Manufacturer,Model,Serial number,Status,Critical,SLA,Created at,Updated at,Circuits,OS Version
+COMPANYA,helsinki-r1,"
+",Helsinki,Router,1.1.1.1,public,2.2.2.1,Cisco,C897,12345678,up,,,,,,8.0(5)25
+COMPANYA,helsinki-r2,,Helsinki,Router,1.1.1.2,public,2.2.2.2,Cisco,C897,12345679,up,,,,,,8.0(5)26
+COMPANYA,helsinki-sw1,,Helsinki,Switch,1.1.1.3,public,2.2.2.3,Cisco,C3750,12345680,up,,,,,,8.0(5)27
+COMPANYB,sydney-r1,,Syney,Switch,1.1.1.4,public,2.2.2.4,Cisco,C3750,12345681,up,,,,,,8.0(5)28
